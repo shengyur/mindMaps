@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a08c7c13-8d37-450c-9483-41f268cde8b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../前端基础&amp;规范/跨域问题的解决/1.jsonp/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../前端基础&amp;规范/跨域问题的解决/1.jsonp/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../前端基础&amp;规范/跨域问题的解决/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../前端基础&amp;规范/跨域问题的解决/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webpack 4基本配置.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Webpack 4基本配置.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tapable" beforeDir="false" afterPath="$PROJECT_DIR$/tapable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tapable/lib/Tapable.js" beforeDir="false" afterPath="$PROJECT_DIR$/tapable/lib/Tapable.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tapable/lib/Tapable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+            <state relative-caret-position="86">
+              <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -67,6 +64,7 @@
     <findStrings>
       <find>tapable.pro</find>
       <find>arguments</find>
+      <find>entry-option</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,12 +166,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543241353792</updated>
-      <workItem from="1543241355137" duration="1425000" />
+      <workItem from="1543241355137" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1425000" />
+    <option name="totallyTimeSpent" value="1652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-22" width="1440" height="922" extended-state="0" />
@@ -231,8 +229,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tapable/lib/Tapable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="80" column="5" lean-forward="true" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        <state relative-caret-position="86">
+          <caret line="63" column="19" lean-forward="true" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
         </state>
       </provider>
     </entry>
