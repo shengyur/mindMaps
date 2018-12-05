@@ -1,8 +1,24 @@
-import util1 from './util1.js'
-import {fn1,fn2} from './util2.js'
+class Animal{
+    constructor(){
+        this.name = name;
+    }
+    eat(){
+        alert(this.name+"eat")
+    }
+}
 
-console.log(util1)
-fn1();
-fn2();
+class Dog extends Animal{
+    constructor(name){
+        super(name)
+        this.name = name;
+    }
+    say(){
+        alert(this.name + 'say')
+    }
+}
 
-// [1,2,3].map(item=>item+1)
+const dog = new Dog("哈士奇")
+
+console.log(dog.name);
+dog.eat()
+dog.say()

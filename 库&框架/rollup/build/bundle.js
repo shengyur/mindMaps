@@ -4,19 +4,32 @@
     (factory());
 }(this, (function () { 'use strict';
 
-    var util1 = {
-      a: 1
-    };
+    class Animal {
+      constructor() {
+        this.name = name;
+      }
 
-    function fn1() {
-      alert("fn1");
-    }
-    function fn2() {
-      alert("fn2");
+      eat() {
+        alert(this.name + "eat");
+      }
+
     }
 
-    console.log(util1);
-    fn1();
-    fn2(); // [1,2,3].map(item=>item+1)
+    class Dog extends Animal {
+      constructor(name) {
+        super(name);
+        this.name = name;
+      }
+
+      say() {
+        alert(this.name + 'say');
+      }
+
+    }
+
+    const dog = new Dog("哈士奇");
+    console.log(dog.name);
+    dog.eat();
+    dog.say();
 
 })));
