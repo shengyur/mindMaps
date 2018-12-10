@@ -9,6 +9,10 @@ ajax也不支持跨域
 
 ## 实现跨域
 - jsonp
+    缺点：
+        只能发送get请求  不支持 post put  delete
+        不安全 易发生XSS攻击 不采用
+
 - cors
 - postMessage
 - document.domain
