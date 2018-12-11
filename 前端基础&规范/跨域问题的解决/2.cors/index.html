@@ -10,11 +10,15 @@
     Hello winter
     <script>
         let xhr = new XMLHttpRequest;
-        xhr.open('GET','http://localhost:4000/getData',true);
+        // xhr.open('GET','http://localhost:4000/getData',true);
+        xhr.open('PUT','http://localhost:4000/getData',true);
+        xhr.setRequestHeader('name','sheldo');
+        xhr.withCredentials = true;//必须带cookie
         xhr.onreadystatechange = function(){
             if(xhr.readyState === 4){
                 if(xhr.status >= 200 && xhr.status <300 || xhr.status ==304){
-                    console.log(xhr.response);
+                    console.log("xhr.response",xhr.response);
+                    console.log("xhr.getResponseHeader('name')",xhr.getResponseHeader('name'))
                 }
             }
         }
