@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add esprima
+
+PATH: 
+  C:\Users\shengyu2\bin;D:\software\Git\mingw64\bin;D:\software\Git\usr\local\bin;D:\software\Git\usr\bin;D:\software\Git\usr\bin;D:\software\Git\mingw64\bin;D:\software\Git\usr\bin;C:\Users\shengyu2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Common Files\Verint\Bin;C:\Program Files (x86)\Common Files\Verint\Bin;C:\Program Files\TortoiseSVN\bin;D:\software\Git\cmd;C:\Users\shengyu2\AppData\Local\atom\bin;D:\nvm;C:\Program Files\nodejs;%JAVA_HOME%\bin;D:\soft\maven\apache-maven-3.0.5\bin;C:\Program Files (x86)\Yarn\bin;D:\software\bin;D:\software\vs\Microsoft VS Code\bin;C:\Users\shengyu2\AppData\Local\atom\bin;D:\nvm;C:\Program Files\nodejs;D:\software\vs\Microsoft VS Code\bin;C:\Users\shengyu2\AppData\Local\Yarn\bin;C:\Users\shengyu2\AppData\Roaming\npm;D:\software\Microsoft VS Code\bin;D:\software\Git\usr\bin\vendor_perl;D:\software\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.11.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "AST",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: connect ETIMEDOUT 10.40.189.154:7001
+      at Object._errnoException (util.js:992:11)
+      at _exceptionWithHostPort (util.js:1014:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
